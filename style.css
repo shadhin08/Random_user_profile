@@ -1,0 +1,154 @@
+.user-section
+{
+    margin: 0;
+    padding: 0;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: gray 1px 1px 2px;
+}
+.upper-pictures
+{
+    margin: 10px;
+    height: 250px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover-photo
+{
+    height: 200px;
+    width: 500px;
+    background-image: url(media/Among-Us-Random-Name-Generator.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#profile
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.profile-photo
+{
+    position: absolute;
+    top: 160px;
+}
+.about-info
+{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+.about-icon
+{
+    /* border: 1px solid black; */
+    padding: 0;
+    margin: 20px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+#email, #phone, #birthday, #address
+{
+    display: none;
+}
+/* edit icon*/
+.upper
+{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    /* filter: invert(15%) sepia(49%) saturate(3329%) hue-rotate(117deg) brightness(102%) contrast(96%); */
+    background-color: transparent;
+    transition: 500ms;
+}
+.down
+{
+    position: absolute;
+    top: 60px;
+
+    height: 60px;
+    width: 60px;
+    margin: 0px;
+    filter: invert(15%) sepia(49%) saturate(3329%) hue-rotate(117deg) brightness(102%) contrast(96%);
+    background-color: transparent;
+    transition: 500ms;
+}
+.name, .email, .phone, .birthday, .address
+{
+    margin: 10px;
+}
+/* active bar */
+.name .upper
+{
+    top: -60px;
+    transition: top 500ms;
+}
+.name .down
+{
+    top: 0px;
+    transition: 500ms;
+}
+
+/* apply hover */
+/* 
+.name:hover .upper
+{
+    top: -60px;
+    transition: top 500ms;
+}
+.name:hover .down
+{
+    top: 0px;
+    transition: 500ms;
+}
+
+.email:hover .upper
+{
+    top: -60px;
+    transition: top 500ms;
+}
+.email:hover .down
+{
+    top: 0px;
+    transition: 500ms;
+}
+
+.phone:hover .upper
+{
+    top: -60px;
+    transition: top 500ms;
+}
+.phone:hover .down
+{
+    top: 0px;
+    transition: 500ms;
+}
+
+.birthday:hover .upper
+{
+    top: -60px;
+    transition: top 500ms;
+}
+.birthday:hover .down
+{
+    top: 0px;
+    transition: 500ms;
+}
+.address:hover .upper
+{
+    top: -60px;
+    transition: top 500ms;
+}
+.address:hover .down
+{
+    top: 0px;
+    transition: 500ms;
+}
+ */
